@@ -1,8 +1,8 @@
 package rabbitmq
 
 import (
+	"../../../amqp"
 	"encoding/json"
-	"github.com/streadway/amqp"
 )
 
 type RabbitMQ struct {
